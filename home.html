@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body  >
+	<h1 style="text-align: center;"> Register Yourself</h1>
+	<br>
+	<form action="data.php">
+	<table border="0" align="center" cellspacing="4">
+		<tr>
+			<td><h3>First Name: </h3></td>
+			<td><input type="text" name="fname" placeholder="First Name"  required></td>
+		</tr>
+		<tr>
+			<td><h3>Last Name: </h3></td>
+			<td><input type="text" name="lname" placeholder="Last Name" required></td>
+		</tr>
+		<tr>
+			<td><h3>Date of Birth</h3></td>
+			<td><input type="Date" name="dob" placeholder="01/01/2001" required></td>
+		</tr>
+		<tr>
+			<td><h3>Gender:</h3></td>
+			<td>
+				<input type="radio" name="Gender" value="m" required>Male 
+				<input type="radio" name="Gender" value="f" required>Female 
+				<input type="radio" name="Gender" value="o" required>Other
+			</td>
+		</tr>
+		<tr>
+			<td><h3>E-mail: </h3></td>
+			<td><input type="email" name="email" placeholder="abc@xyz.com"  required></td>
+		</tr>
+		<tr>
+			<td><h3>Password:</h3></td>
+			<td><input type="password" name="password" placeholder="********" required></td>
+		</tr>
+		<tr>
+			<td><h3>Confirm Password: </h3></td>
+			<td><input type="password" name="cpassword" placeholder="********" required></td>
+		</tr>
+		<tr>
+			<td><h3>Contact No.: </h3></td>
+			<td><input type="tel" name="phone" placeholder="9999999999" pattern="[0-9]{10}" ></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="checkbox" name="tc" value="1" required> I have read all the Terms & Conditions.</td>
+		</tr>
+		<tr>
+			<td align="center" colspan="2"><input type="Submit" name="" id="btn"></td>
+		</tr>
+	</table>
+	</form>
+		
+	
+	
+
+
+</body>
+</html>

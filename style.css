@@ -1,0 +1,16 @@
+body {
+	background-image: url("bg3.jpg");
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-weight: bold;
+}
+
+input {
+	height: 25px;
+	border-radius: 10px;
+}
+
+#btn {
+	border-radius: 30px;
+}
